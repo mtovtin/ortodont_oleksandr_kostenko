@@ -36,9 +36,97 @@
 
 <div [ngClass]="{ 'show2': navbarOpen }">
 
-  <div id="carousel">
+  <div class="carousel" id="c1">
 
-    <carousel [margin]=25 [height]=250 [cellsToShow]="3" [cellWidth]=120 [autoplay]="true" [loop]="true"
+    <carousel [cellsToShow]=3 [margin]=25 [height]=250  [cellWidth]=120 [autoplay]="true" [loop]="true"
+      [arrowsTheme]="'dark'" [transitionTimingFunction]="'ease-in-out'" [autoplayInterval]=4000 [dots]=false
+      [transitionDuration]=600>
+      <div class="carousel-cell">
+        <img src="./assets/images/1.jpg">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/2.jpg">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/3.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/1.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/2.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/3.jpg">
+      </div>
+
+
+      <div class="carousel-cell">
+        <img src="./assets/images/1.jpg">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/2.jpg">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/3.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/1.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/2.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/3.jpg">
+      </div>
+
+
+      <div class="carousel-cell">
+        <img src="./assets/images/1.jpg">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/2.jpg">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/3.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/1.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/2.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/3.jpg">
+      </div>
+
+
+      <div class="carousel-cell">
+        <img src="./assets/images/1.jpg">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/2.jpg">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/3.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/1.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/2.jpg">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/3.jpg">
+      </div>
+
+    </carousel>
+  </div>
+
+
+  <div class="carousel" id="c2">
+
+    <carousel [cellsToShow]=1 [margin]=25 [height]=250  [cellWidth]=120 [autoplay]="true" [loop]="true"
       [arrowsTheme]="'dark'" [transitionTimingFunction]="'ease-in-out'" [autoplayInterval]=4000 [dots]=false
       [transitionDuration]=600>
       <div class="carousel-cell">
