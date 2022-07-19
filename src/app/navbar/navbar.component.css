@@ -99,6 +99,7 @@ span {
   align-items: center;
   margin: -8px;
   margin-left: -40px;
+
 }
 
 #nav_butt {
@@ -368,6 +369,11 @@ margin-top: -50px;
   padding: 60px; display: flex; justify-content: space-evenly; line-height: 30px;
 }
 
+@media screen and (max-width: 400px) {
+#navbar {
+  width: 104vw;
+}
+}
 @media screen and (max-width: 760px) {
   #foot1 {
     width: 60%;
@@ -377,6 +383,13 @@ margin-top: 180px;
     text-align: center;
     margin-bottom: 30px;
     font-size: 20px;
+  }
+
+  #navbar {
+    width: 103vw;
+  }
+  #nav_butt{
+margin-left: -200px;
   }
   
   #foot2 {
@@ -400,3 +413,9 @@ margin-top: 180px;
      display: flex; flex-direction: column; justify-content: center; line-height: 30px; padding-bottom: 250px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  #navbar {
+    width: 104vw;
+  }
+  }
