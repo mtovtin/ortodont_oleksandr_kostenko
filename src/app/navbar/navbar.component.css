@@ -460,3 +460,29 @@ padding-top: 17px;
     margin-top: -165px;
   }
   }
+
+  iframe {
+    width:600px;
+    height:500px;
+  }
+  
+#iframe {
+display: flex; justify-content: center; margin-bottom: 70px;
+margin-top: -20px;
+}
+
+  @media screen and (max-width: 760px) {
+    iframe {
+      width:400px;
+      height:300px;
+
+    }
+
+    #iframe {
+    margin-left: -200px;
+    margin-bottom: -130px;
+    margin-top: 30px;
+    }
+    
+    
+  }
