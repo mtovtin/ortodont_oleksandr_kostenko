@@ -7,11 +7,13 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
 import "@ptkdev/webcomponent-instagram-widget";
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { AdvantagesComponent } from './advantages/advantages.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
+    AdvantagesComponent,
   ],
   imports: [
     BrowserModule,
