@@ -316,7 +316,7 @@ background-color: #262626;
 }
 
 #reg_online_div {
-  text-align:center; margin: 50px 50px;
+  text-align:center; margin: 50px 10px;
 }
 
 #reg_button {
@@ -470,6 +470,13 @@ padding-top: 17px;
 display: flex; justify-content: center; margin-bottom: 70px;
 margin-top: -20px;
 }
+#inns{
+  margin: 0 50px;
+}
+
+#comp {
+  display: flex; flex-direction:column;margin: -30px 50px 20px 50px
+}
 
   @media screen and (max-width: 760px) {
     iframe {
@@ -482,11 +489,47 @@ margin-top: -20px;
     margin-left: -200px;
     margin-bottom: -130px;
     margin-top: 30px;
+    
     }
     
+    #reg_button{
+      margin-top: 50px;
+    }
+    #reg_online{
+      font-size: 24px;
+      line-height: 25px;
+    width: 150%;
     
+    
+    }
+
+    #reg_online_2{
+      font-size: 16px;
+    }
+    #inns{
+      margin: 0 0px;
+    }
+    #comp {
+     display: flex; flex-direction:column;margin: -30px 0px 20px 0px
+    }
+ 
   }
 
   a:hover{
     color: #77ABA5;
+  }
+
+  @media screen and (max-width: 460px) {
+    iframe {
+      width:340px;
+      height:300px;
+
+    }
+
+    #iframe {
+    margin-left: -260px;
+    margin-bottom: -130px;
+    margin-top: 30px;
+    
+    }
   }

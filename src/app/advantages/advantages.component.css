@@ -509,7 +509,7 @@
     #bod {
         margin: 50px 100px;
     }
-    @media screen and (max-width: 760px) {
+    @media screen and (max-width: 1000px) {
         #bod {
             margin-top: -110px;
         }
@@ -528,7 +528,14 @@
     }
     .txt {
         text-align: center;
+        width: 150%;
     }
+
+    #bod {
+      margin: 50px 10px;
+      margin-top: -100px;
+  }
+  
     }
 
  
