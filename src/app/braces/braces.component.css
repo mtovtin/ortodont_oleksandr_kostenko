@@ -488,6 +488,8 @@
     }
 
     .txt {
+        text-align: center;
+        width: 70%;
         font-size: 26px;
         color: #262626;
         font-family: "Futura Pt";
@@ -495,8 +497,8 @@
     }
 
   .advantage  img {
-        width: 300px;
-         height:180px;
+        width: 440px;
+         height:220px;
     }
 
     .advantage{
@@ -504,11 +506,14 @@
     }
     .highlight {
         color: #77ABA5;
-        display: inline;
+      
     }
     #bod {
         margin: 50px 100px;
     }
+
+
+
     @media screen and (max-width: 1000px) {
         #bod {
             margin-top: -110px;
@@ -528,7 +533,7 @@
     }
     .txt {
         text-align: center;
-        width: 150%;
+        width: 100%;
     }
 
     #bod {
@@ -541,4 +546,10 @@
  
 a:hover{
   color: #77ABA5;
+}
+
+@media screen and (max-width: 1100px) and (min-width: 760px) {
+    #bod {
+        margin-top: 50px;
+    }
 }
