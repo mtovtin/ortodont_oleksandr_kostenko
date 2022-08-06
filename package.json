@@ -22,6 +22,7 @@
     "@ptkdev/webcomponent-instagram-widget": "^2.9.0",
     "angular-responsive-carousel": "^2.1.2",
     "img-comparison-slider": "^7.6.0",
+    "ngx-lightbox": "^2.6.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

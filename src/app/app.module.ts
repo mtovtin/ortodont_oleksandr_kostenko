@@ -9,6 +9,9 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { AdvantagesComponent } from './advantages/advantages.component';
 import { BracesComponent } from './braces/braces.component';
+import { GalleryComponent } from './gallery/gallery.component';
+import { RulesComponent } from './rules/rules.component';
+
 
 @NgModule({
   declarations: [
@@ -16,12 +19,16 @@ import { BracesComponent } from './braces/braces.component';
     NavbarComponent,
     AdvantagesComponent,
     BracesComponent,
+    GalleryComponent,
+    RulesComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     IvyCarouselModule, 
     FormsModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent],
