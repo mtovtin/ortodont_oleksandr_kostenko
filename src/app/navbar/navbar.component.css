@@ -533,3 +533,26 @@ margin-top: -20px;
     
     }
   }
+
+  #logo{
+
+    width:100px;
+    margin-top: 20px; 
+    height: 70px;
+    }
+    #logo1 img{
+    height: 80px;
+    width: 80px;
+    
+    margin-top: 20px;
+      }
+    
+    @media screen and (max-width: 1000px) {
+      #logo{
+        width:70px;
+        margin-top: 20px; 
+        height: 50px;
+        }
+    
+     
+    }
