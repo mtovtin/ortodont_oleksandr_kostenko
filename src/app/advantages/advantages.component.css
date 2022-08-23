@@ -572,3 +572,15 @@ a:hover{
   
    
   }
+
+
+
+  @media screen and (max-width: 1000px) {
+
+
+  .advantage  img {
+    width: 250px;
+     height:180px;
+}
+
+  }
