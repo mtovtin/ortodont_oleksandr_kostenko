@@ -447,6 +447,9 @@
       width: 104vw;
     }
   }
+  #br2 {
+    width: 400px;
+  }
   
   @media screen and (max-width: 770px) {
   
@@ -471,7 +474,9 @@
   margin-top: -20px;
   }
   
+  
     @media screen and (max-width: 760px) {
+
       iframe {
         width:400px;
         height:300px;
@@ -515,6 +520,9 @@
 
 
     @media screen and (max-width: 1000px) {
+      #br2 {
+        width: 270px;
+      }
         #bod {
             margin-top: -110px;
         }
