@@ -20,7 +20,7 @@
   <span> <a href="advantages">НАШІ ПЕРЕВАГИ</a></span>
   <span> <a href="braces">НАШІ БРЕКЕТИ</a></span>
   <span> <a href="rules">ПРАВИЛА ДЛЯ ПАЦІЄНТІВ</a></span>
-
+  <span> <a href="gallery">ВІДГУКИ</a></span>
 
   <div (click)="toggleNavbar()" id="nav_butt"><img src="./assets/images/Menu Icon.png" alt=""></div>
 </div>
@@ -31,6 +31,7 @@
   <span> <a href="advantages">НАШІ ПЕРЕВАГИ</a></span>
   <span> <a href="braces">НАШІ БРЕКЕТИ</a></span>
   <span> <a href="rules">ПРАВИЛА ДЛЯ ПАЦІЄНТІВ</a></span>
+  <span> <a href="gallery">ВІДГУКИ</a></span>
 
 </div>
 
@@ -89,14 +90,14 @@
     <div class="comparison" style="display: flex; flex-direction:row; justify-content: center; align-items: center; margin: 20px 0px;  ">
       <div style="text-align: center">
         <img-comparison-slider  class=" gr" >
-        <img  slot="first" src="./assets/images/IMG_1123.JPEG" />
-          <img  slot="second" src="./assets/images/IMG_1124.JPEG" />
+        <img  slot="first" src="./assets/images/IMG_1123.webp" />
+          <img  slot="second" src="./assets/images/IMG_1124.webp" />
         </img-comparison-slider>
       </div>
       <div style="text-align: center;">
         <img-comparison-slider class="dr" >
-        <img  slot="first" src="./assets/images/IMG_1126.JPEG" />
-        <img slot="second" src="./assets/images/IMG_1125.JPEG" />
+        <img  slot="first" src="./assets/images/IMG_1126.webp" />
+        <img slot="second" src="./assets/images/IMG_1125.webp" />
   
         </img-comparison-slider>
       </div>
@@ -106,14 +107,14 @@
     <div class="comparison" style="display: flex; flex-direction:row; justify-content: center; align-items: center; margin: 20px 0px;">
       <div style="text-align: center">
         <img-comparison-slider  class="gr">
-          <img  slot="first" src="./assets/images/IMG_1128.JPEG" />
-          <img  slot="second" src="./assets/images/IMG_1127.JPEG" />
+          <img  slot="first" src="./assets/images/IMG_1128.webp" />
+          <img  slot="second" src="./assets/images/IMG_1127.webp" />
         </img-comparison-slider>
       </div>
       <div style="text-align: center;">
         <img-comparison-slider class="dr">
-          <img  slot="first" src="./assets/images/IMG_1122.JPEG" />
-          <img  slot="second" src="./assets/images/IMG_1121.JPEG" />
+          <img  slot="first" src="./assets/images/IMG_1122.webp" />
+          <img  slot="second" src="./assets/images/IMG_1121.webp" />
         </img-comparison-slider>
       </div>
     </div>
@@ -131,8 +132,8 @@
 
   <div style="text-align: center; margin-top: -30px;" class="i">
     <span id="rep" class="res" >Відгуки</span>
-
-    <carousel style="background-color: none; margin-top: 25px;" [cellsToShow]=1 [cellsToScroll]=1  [height]=250  [cellWidth]=120 [autoplay]=true [loop]="false"
+<div class="carousel">
+    <carousel style="background-color: none; margin-top: 25px;" [cellsToShow]=1 [cellsToScroll]=1  [height]=250  [cellWidth]=120 [autoplay]=false [loop]="false"
       [arrows]="true" [transitionTimingFunction]="'ease-in-out'" [autoplayInterval]=10000 [dots]=false
       [transitionDuration]=600 [arrowsTheme]="'dark'">
       <div   class="carousel-cell">
@@ -153,6 +154,21 @@
       <div class="carousel-cell">
         <img src="./assets/images/screen19.png">
       </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/screen20.png">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/screen21.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen22.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen23.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen24.png">
+      </div>
 
       <div   class="carousel-cell">
         <img src="./assets/images/screen16.png">
@@ -172,6 +188,21 @@
       <div class="carousel-cell">
         <img src="./assets/images/screen19.png">
       </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/screen20.png">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/screen21.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen22.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen23.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen24.png">
+      </div>
       <div   class="carousel-cell">
         <img src="./assets/images/screen16.png">
       </div>
@@ -190,6 +221,21 @@
       <div class="carousel-cell">
         <img src="./assets/images/screen19.png">
       </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/screen20.png">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/screen21.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen22.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen23.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen24.png">
+      </div>
       <div   class="carousel-cell">
         <img src="./assets/images/screen16.png">
       </div>
@@ -208,6 +254,22 @@
       <div class="carousel-cell">
         <img src="./assets/images/screen19.png">
       </div>
+      <div class="carousel-cell" class="carousel-cell">
+          <img src="./assets/images/screen20.png">
+        </div>
+        <div class="carousel-cell" class="carousel-cell">
+          <img src="./assets/images/screen21.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="./assets/images/screen22.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="./assets/images/screen23.png">
+        </div>
+        <div class="carousel-cell">
+          <img src="./assets/images/screen24.png">
+        </div>
+
       <div   class="carousel-cell">
         <img src="./assets/images/screen16.png">
       </div>
@@ -225,9 +287,26 @@
       </div>
       <div class="carousel-cell">
         <img src="./assets/images/screen19.png">
+      </div>
+
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/screen20.png">
+      </div>
+      <div class="carousel-cell" class="carousel-cell">
+        <img src="./assets/images/screen21.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen22.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen23.png">
+      </div>
+      <div class="carousel-cell">
+        <img src="./assets/images/screen24.png">
       </div>
 
     </carousel>
+    </div>
   </div>
 
 

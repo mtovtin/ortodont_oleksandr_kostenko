@@ -553,14 +553,14 @@ a:hover{
 #logo{
 
   width:100px;
-  margin-top: 20px; 
+  margin-top: 10px; 
   height: 70px;
   }
   #logo1 img{
   height: 80px;
   width: 80px;
   
-  margin-top: 20px;
+  margin-top: 10px;
     }
   
   @media screen and (max-width: 1000px) {
