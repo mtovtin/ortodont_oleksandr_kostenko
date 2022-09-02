@@ -11,6 +11,7 @@ import { AdvantagesComponent } from './advantages/advantages.component';
 import { BracesComponent } from './braces/braces.component';
 import { GalleryComponent } from './gallery/gallery.component';
 import { RulesComponent } from './rules/rules.component';
+import { AboutComponent } from './about/about.component';
 
 
 @NgModule({
@@ -21,6 +22,7 @@ import { RulesComponent } from './rules/rules.component';
     BracesComponent,
     GalleryComponent,
     RulesComponent,
+    AboutComponent,
 
   ],
   imports: [

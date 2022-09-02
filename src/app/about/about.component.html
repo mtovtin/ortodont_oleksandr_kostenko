@@ -1,0 +1,58 @@
+<html>
+
+<head>
+  <script src="jquery.js"></script>
+  <script>
+    $(function () {
+      $("#Content").load("xz.html");
+    });
+
+  </script>
+</head>
+
+<link href="ortho/node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
+<div id="navbar">
+
+  <span><a href=""><img id="logo" src="./assets/images/logo.svg" alt=""></a></span>
+  <div id="logo1"><img src="./assets/images/logo.svg" alt=""></div>
+  <span id="adv"> <a href="">ГОЛОВНА</a></span>
+  <span> <a href="about">ПРО МЕНЕ</a></span>
+  <span> <a href="advantages">НАШІ ПЕРЕВАГИ</a></span>
+  <span> <a href="braces">НАШІ БРЕКЕТИ</a></span>
+  <span> <a href="rules">ПРАВИЛА ДЛЯ ПАЦІЄНТІВ</a></span>
+  <span> <a href="gallery">ВІДГУКИ</a></span>
+
+
+  <div (click)="toggleNavbar()" id="nav_butt"><img src="./assets/images/Menu Icon.png" alt=""></div>
+</div>
+
+
+<div id="mob_menu" [ngClass]="{ 'show': navbarOpen }">
+  <span> <a href="">ГОЛОВНА</a></span>
+  <span> <a href="about">ПРО МЕНЕ</a></span>
+  <span> <a href="advantages">НАШІ ПЕРЕВАГИ</a></span>
+  <span> <a href="braces">НАШІ БРЕКЕТИ</a></span>
+  <span> <a href="rules">ПРАВИЛА ДЛЯ ПАЦІЄНТІВ</a></span>
+  <span> <a href="gallery">ВІДГУКИ</a></span>
+
+</div>
+
+<div [ngClass]="{ 'show2': navbarOpen }">
+
+<div id="hd">
+    <div id="hd1">
+        <span id="name" style="">Олександр Костенко</span>
+        <span style="color:#77ABA5; margin-top: -35px;">лікар-ортодонт</span>
+        <div style="display: flex; flex-direction: row; justify-content:space-between; align-items: left; width: 80%; ">
+<span><img width="20px"  src="./assets/images/email.png" alt=""> kostenko196@gmail.com</span>
+<span><img width="20px"  src="./assets/images/smartphone.png" alt=""> +380935247313</span>
+        </div>
+
+    </div>
+
+    <div id="hd2">
+<img  src="./assets/images/ava.jpg" alt="">
+    </div>
+
+</div>
