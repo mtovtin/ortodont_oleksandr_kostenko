@@ -613,3 +613,14 @@ a:hover{
  #hd2 img {
  width: 200px; height: 230px;
  }
+
+#about {
+  display: flex; flex-direction: row
+}
+#about span {
+  font-size: 24px;
+}
+
+#exp span, #exp1 span{
+  display: block; text-align: center; margin-top: 5px; margin-bottom: 5px; color: #838383;
+}
