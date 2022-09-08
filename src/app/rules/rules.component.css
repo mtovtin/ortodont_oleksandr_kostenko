@@ -589,3 +589,23 @@ margin-top: 20px;
       margin-top: -90px;
   }
 }
+
+#navbar span {
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1000px) {
+  #navbar span {
+    font-size: 14px;
+  }
+
+  #logo{
+    margin-top: 10px;
+  }
+
+}
+
+#mob_menu span :hover{
+  color: white;
+  cursor:default
+}
